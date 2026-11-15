@@ -1,0 +1,8 @@
+outputs/
+meshes/impact3d/
+*.tmp
+*.log
+.DS_Store
+__pycache__/
+.venv/
+LocalPreferences.toml

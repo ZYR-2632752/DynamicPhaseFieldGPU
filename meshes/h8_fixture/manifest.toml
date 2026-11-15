@@ -1,0 +1,52 @@
+schema = "s6_extruded_h8_v1"
+order = "Fortran"
+endianness = "little"
+connectivity_index_base = 1
+author_original_mesh = false
+ncp = 218
+nelem = 120
+section_nodes = 29
+section_quads = 20
+layers = 6
+geometry_groups = 2
+group_dx_mm = [10.0, 20.0]
+mesh_qualification = "reconstructed operator fixture"
+reference_volume_mm3 = 1000000.0
+geometry_identity = "Rudshaug2024_Fig6_reconstruction"
+quadrature = "2x2x2 full H8; shared geometry only, no reduced integration"
+
+[arrays.coords]
+filename = "control_xyz.bin"
+dtype = "float64"
+shape = [3, 218]
+sha256 = "87b68d80d02e0abf0dfc929139ec14fe2f04707729ed2b96792a3f909cc781bf"
+
+[arrays.conn]
+filename = "conn.bin"
+dtype = "int32"
+shape = [960]
+sha256 = "42e1f2f6de9b38111a9aedce3623f0f730c9eeb5c162bb26a18b9bccccdc6cfc"
+
+[arrays.N]
+filename = "quadrature/N.bin"
+dtype = "float64"
+shape = [8, 8]
+sha256 = "2065365de979db48b53a96afa98fdc9c4f942d46a2a1dae75b23d04f1ee54d54"
+
+[arrays.grad]
+filename = "quadrature/grad.bin"
+dtype = "float64"
+shape = [3, 8, 320]
+sha256 = "1751990bcfab1ae00da271dfd40aa994cd4ad54e4caa32d6bb338cb180131ff5"
+
+[arrays.weights]
+filename = "quadrature/weights.bin"
+dtype = "float64"
+shape = [8, 40]
+sha256 = "2710b911f932d8e42a0ec03d67401c62ec5006e7bcbca529e397951f324cb1d4"
+
+[arrays.layer_groups]
+filename = "quadrature/layer_groups.bin"
+dtype = "int32"
+shape = [6]
+sha256 = "a462484aa950c80916a1d26ad1835d51bf617495386016a149c9ef785811fb14"

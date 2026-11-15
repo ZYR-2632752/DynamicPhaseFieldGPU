@@ -1,0 +1,13 @@
+nodes = 260361
+elements = 519874
+impact_nodes = 26
+bottom_nodes = 101
+
+[mesh_sha256]
+"areas.npy" = "133057796613e89905c3b5dedcc4debae5dd9f580157e73fe4a4b130154cc811"
+"bottom.npy" = "4c1791d64a365c4c2e625badd175bb5fcac07a01bf713c45d59043672f1a071b"
+"gradients.npy" = "016647f4b4fb03b07bdd6f74dc27607ce24430b8606267e146c45acdef5d62fc"
+"impact.npy" = "dbbffe2d12ebf4387aafdfc841f17adbae5315066cb31de15f67adc0edaaea55"
+"mass.npy" = "9d70299570051238e5de26985fddf2ef9e5693ce9f50993c868ab853bfa81316"
+"nodes.npy" = "f1f18ec2fdc30127668c080d699a08243879e0349c0fe110cf29ff3c32b5a3c6"
+"triangles.npy" = "1de52be5963bfce589167bb03275dce668eaa09e9ad75ee2e2a743efb7931165"

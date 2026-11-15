@@ -1,0 +1,25 @@
+AS = 102
+gc_N_mm = 0.003
+ell_mm = 0.5
+elements = 360020
+minimum_damage = 0.0
+mechanical_bound_s = 7.024711224803053e-09
+mesh_manifest_sha256 = "93862d44f6bb5ce1d7b964b60872ac45182fbea26dfadfd68e5f5ecaf4f6a800"
+status = "passed"
+initial_fracture_N_mm = 0.20860616169689983
+CG = 6282
+solver_residual = 8.018795288746533e-13
+GPU_execution = false
+q0_sha256 = "341d21b96d650423b84af8992b132629173e67eae9f4636728169080de9d4cba"
+KKT = 8.018795288746533e-13
+nodes = 180301
+maximum_damage = 1.0
+fixed_damage_nodes = 0
+d0_sha256 = "ef5a7a292961895cae5c2b42f5aa73691e09c6f7bc782e99486111bee22c737d"
+CUDA_imported = false
+initial_driver = "Frozen H0 centroid projection; same P1 consistent reaction and gradient energy"
+
+[mirror]
+max_damage_mirror_difference = 8.770761894538737e-15
+relative_lumped_L2_difference = 9.711423017615128e-16
+gate_max_difference = 1e-10

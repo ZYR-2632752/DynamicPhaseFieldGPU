@@ -1,0 +1,52 @@
+schema = "s4_p1_rectangle_v1"
+status = "PASS"
+nodes = 180301
+elements = 360020
+h_mm = 0.125
+ell_mm = 0.5
+scale = 1.0
+length_unit = "mm"
+endianness = "little"
+order = "F"
+connectivity_index_base = 1
+meshsha = "c29b0d7aa049fd98f712cfdeb261c35efb2bf9b6ad72d332ae844390b06cb44b"
+source_sha256 = "636a3b6297d322b9bb29db9e21fabf5b448763030ab4eaf52153a5a286dc6a59"
+purpose = "Recovered mirrored branching mesh; final publication run identity unverified"
+
+[sha256]
+"xy.f64" = "844f9c09feef96e748e2b5ebdcb3de4245eb158da7b7b5b281282a7d346895e6"
+"tri.i32" = "ac2652cf5825d4ecd80d187cecac5a894856d7560bd544209e9a8970076d40fa"
+"f100.f64" = "47484872d04e53192b9c3a543c522a9cdcaabb8b062a8bd5a636b29cb5fa8934"
+"mirror_partner.i32" = "f0d2994682edf3148d79eb7c5f2d343122299eaf9961c19a3a1bf6052a951ba3"
+
+[arrays.xy]
+filename = "xy.f64"
+dtype = "<f8"
+shape = [2, 180301]
+order = "F"
+bytes = 2884816
+sha256 = "844f9c09feef96e748e2b5ebdcb3de4245eb158da7b7b5b281282a7d346895e6"
+
+[arrays.tri]
+filename = "tri.i32"
+dtype = "<i4"
+shape = [3, 360020]
+order = "F"
+bytes = 4320240
+sha256 = "ac2652cf5825d4ecd80d187cecac5a894856d7560bd544209e9a8970076d40fa"
+
+[arrays.f100]
+filename = "f100.f64"
+dtype = "<f8"
+shape = [2, 180301]
+order = "F"
+bytes = 2884816
+sha256 = "47484872d04e53192b9c3a543c522a9cdcaabb8b062a8bd5a636b29cb5fa8934"
+
+[arrays.mirror_partner]
+filename = "mirror_partner.i32"
+dtype = "<i4"
+shape = [180301]
+order = "F"
+bytes = 721204
+sha256 = "f0d2994682edf3148d79eb7c5f2d343122299eaf9961c19a3a1bf6052a951ba3"
